@@ -1,4 +1,4 @@
 - tanda (*) sebelum tipe data berarti variable tersebut bertipe pointer, dan hanya bisa menampung data berupa pointer
 - variable bertipe pointer memiliki nilai default `nil` (kosong)
-- tanda (&) sebelum nama variable berarti mengambil nilai pointer dari variable original, hal ini disebut `referencing`
+- tanda (&) sebelum nama variable berarti mengambil nilai pointer dari variable original, hal ini disebut `referencing`, dan variable hasil referencing bersifat mutable (jika data source berubah, maka var ini juga akan berubah)
 - value original dari variable pointer bisa diambil dengan cara menambahkan tanda (*) sebelum nama variable, hal ini disebut `dereferencing`
